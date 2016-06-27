@@ -1,0 +1,63 @@
+
+<html lang="en">
+<head>
+  <title>Bootstrap Q1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 65%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body background="arsenal.jpg">
+<h1><center><font color="white">Arsenal Players</font></center></h1><br><br>
+<div class="container">
+  <br>
+  <div id="myCar" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCar" data-slide-to="0" class="active"></li>
+      <li data-target="#myCar" data-slide-to="1"></li>
+      <li data-target="#myCar" data-slide-to="2"></li>
+      <li data-target="#myCar" data-slide-to="3"></li>
+
+      
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img1.jpg" alt="Ozil" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img2.jpeg" alt="Xhaka" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="img3.jpg" alt="Alexis" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="img4.jpg" alt="Cech" width="460" height="345">
+      </div>
+
+    </div>
+
+    <a class="left carousel-control" href="#myCar" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCar" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
